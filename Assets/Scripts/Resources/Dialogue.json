@@ -1,0 +1,40 @@
+{
+  "npcCharacters":[
+  {
+    "npcName":"Casper",
+    "dialogue":"(Whistle's') Ola!"
+  },
+  {
+    "npcName": "Jacque die Boer",
+    "dialogue": "Haai"
+  },
+  {
+    "npcName": "Casper",
+    "dialogue": "You think you got what it take Mlungu"
+  },
+    {
+      "npcName": "Jacque die Boer",
+      "dialogue": "Ja "
+    },
+    {
+      "npcName1": "Casper",
+      "dialogue1": "You feeling yourself now, Come lets hit the streets!"
+    },
+    {
+      "npcName1": "Jacque die Boer",
+      "dialogue1": "I'll smoke all of you"
+    },
+    {
+      "npcName1": "Casper",
+      "dialogue1": "Awe!"
+    },
+    {
+      "npcName2": "Casper",
+      "dialogue2": "Lets hit a real race course"
+    },
+    {
+      "npcName2": "Jacque die Boer",
+      "dialogue2": "This boer will smoke you"
+    }
+  ]
+}
