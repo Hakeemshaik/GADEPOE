@@ -34,7 +34,7 @@ public class Racecourse : MonoBehaviour
             }
 
             // Wait for agents to reach the waypoint
-            yield return new WaitForSeconds(20f); // Adjust this based on your game speed and agent speed
+            yield return new WaitForSeconds(19f); // Adjust this based on your game speed and agent speed
 
             // Update the current waypoint index for the next iteration
             switch (currentWaypointIndex)
