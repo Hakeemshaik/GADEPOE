@@ -6,12 +6,14 @@ public class SpecAni : MonoBehaviour
 {
     private Animator animator; // variable to access the animator component
     private float stateLimit; // variable for how long a spectator will be in an exact state
-    private float nextStateLimit; 
+    private float nextStateLimit;
+    private AudioSource cheerAudioSource;
     
     private void Start()
     {
         animator = GetComponent<Animator>(); // access the animater component 
         ChangeState(); // Start in a random state.
+        cheerAudioSource = GetComponent<AudioSource>();
     }
 
     private void Update()
@@ -34,6 +36,7 @@ public class SpecAni : MonoBehaviour
         {
             case 0:
                 animator.SetTrigger("cheerful");
+                SfxManager.instance.PlaySound(SfxNames.Cheer, cheerAudioSource);
                 break;
             case 1:
                 animator.SetTrigger("disgust");
